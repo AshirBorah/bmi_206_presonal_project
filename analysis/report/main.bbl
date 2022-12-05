@@ -1,0 +1,1271 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{Tsherniak2017-mc}{article}{}
+    \name{author}{25}{}{%
+      {{hash=TA}{%
+         family={Tsherniak},
+         familyi={T\bibinitperiod},
+         given={Aviad},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Vazquez},
+         familyi={V\bibinitperiod},
+         given={Francisca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MPG}{%
+         family={Montgomery},
+         familyi={M\bibinitperiod},
+         given={Phil\bibnamedelima G},
+         giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=WBA}{%
+         family={Weir},
+         familyi={W\bibinitperiod},
+         given={Barbara\bibnamedelima A},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KG}{%
+         family={Kryukov},
+         familyi={K\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CGS}{%
+         family={Cowley},
+         familyi={C\bibinitperiod},
+         given={Glenn\bibnamedelima S},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gill},
+         familyi={G\bibinitperiod},
+         given={Stanley},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HWF}{%
+         family={Harrington},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima F},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pantel},
+         familyi={P\bibinitperiod},
+         given={Sasha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KBJM}{%
+         family={Krill-Burger},
+         familyi={K\bibinithyphendelim B\bibinitperiod},
+         given={John\bibnamedelima M},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MRM}{%
+         family={Meyers},
+         familyi={M\bibinitperiod},
+         given={Robin\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=AL}{%
+         family={Ali},
+         familyi={A\bibinitperiod},
+         given={Levi},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Goodale},
+         familyi={G\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Yenarae},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JG}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Guozhi},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hsiao},
+         familyi={H\bibinitperiod},
+         given={Jessica},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GWFJ}{%
+         family={Gerath},
+         familyi={G\bibinitperiod},
+         given={William F\bibnamedelima J},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Howell},
+         familyi={H\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Merkel},
+         familyi={M\bibinitperiod},
+         given={Erin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Ghandi},
+         familyi={G\bibinitperiod},
+         given={Mahmoud},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GLA}{%
+         family={Garraway},
+         familyi={G\bibinitperiod},
+         given={Levi\bibnamedelima A},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RDE}{%
+         family={Root},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima E},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GTR}{%
+         family={Golub},
+         familyi={G\bibinitperiod},
+         given={Todd\bibnamedelima R},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BJS}{%
+         family={Boehm},
+         familyi={B\bibinitperiod},
+         given={Jesse\bibnamedelima S},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HWC}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima C},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \keyw{RNAi screens; cancer dependencies; cancer targets; genetic
+  vulnerabilities; genomic biomarkers; precision medicine; predictive modeling;
+  seed effects; shRNA}
+    \strng{namehash}{TA+1}
+  \strng{fullhash}{TAVFMPGWBAKGCGSGSHWFPSKBJMMRMALGALYJGHJGWFJHSMEGMGLARDEGTRBJSHWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Most human epithelial tumors harbor numerous alterations, making it
+  difficult to predict which genes are required for tumor survival. To
+  systematically identify cancer dependencies, we analyzed 501 genome-scale
+  loss-of-function screens performed in diverse human cancer cell lines. We
+  developed DEMETER, an analytical framework that segregates on- from
+  off-target effects of RNAi. 769 genes were differentially required in subsets
+  of these cell lines at a threshold of six SDs from the mean. We found
+  predictive models for 426 dependencies (55\%) by nonlinear regression
+  modeling considering 66,646 molecular features. Many dependencies fall into a
+  limited number of classes, and unexpectedly, in 82\% of models, the top
+  biomarkers were expression based. We demonstrated the basis behind one such
+  predictive model linking hypermethylation of the UBB ubiquitin gene to a
+  dependency on UBC. Together, these observations provide a foundation for a
+  cancer dependency map that facilitates the prioritization of therapeutic
+  targets.%
+    }
+    \field{number}{3}
+    \field{pages}{564\bibrangedash 576.e16}
+    \field{title}{Defining a cancer dependency map}
+    \field{volume}{170}
+    \field{journaltitle}{Cell}
+    \field{month}{07}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Dempster2020.02.21.959627}{article}{}
+    \name{author}{9}{}{%
+      {{hash=DJM}{%
+         family={Dempster},
+         familyi={D\bibinitperiod},
+         given={Joshua\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KBJM}{%
+         family={Krill-Burger},
+         familyi={K\bibinithyphendelim B\bibinitperiod},
+         given={John\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MJM}{%
+         family={McFarland},
+         familyi={M\bibinitperiod},
+         given={James\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Warren},
+         familyi={W\bibinitperiod},
+         given={Allison},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJS}{%
+         family={Boehm},
+         familyi={B\bibinitperiod},
+         given={Jesse\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Vazquez},
+         familyi={V\bibinitperiod},
+         given={Francisca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HWC}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=GTR}{%
+         family={Golub},
+         familyi={G\bibinitperiod},
+         given={Todd\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tsherniak},
+         familyi={T\bibinitperiod},
+         given={Aviad},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cold Spring Harbor Laboratory}%
+    }
+    \strng{namehash}{DJM+1}
+    \strng{fullhash}{DJMKBJMMJMWABJSVFHWCGTRTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Achieving precision oncology requires accurate identification of targetable
+  cancer vulnerabilities in patients. Generally, genomic features are regarded
+  as the state-of-the-art method for stratifying patients for targeted
+  therapies. In this work, we conduct the first rigorous comparison of DNA- and
+  expression-based predictive models for viability across five datasets
+  encompassing chemical and genetic perturbations. We find that expression
+  consistently outperforms DNA for predicting vulnerabilities, including many
+  currently stratified by canonical DNA markers. Contrary to their perception
+  in the literature, the most accurate expression-based models depend on few
+  features and are amenable to biological interpretation. This work points to
+  the importance of exploring more comprehensive expression profiling in
+  clinical settings.Competing Interest StatementT.R.G. is a paid consultant to
+  GlaxoSmithKiline, is a co-founder of Sherlock Biosciences and FORMA
+  Therapeutics, and receives sponsored research funding from BayerHealthCare,
+  Calico Life Sciences and Novo Ventures. A.T. is a consultant for Tango
+  Therapeutics. W.C.H. is a consultant for ThermoFisher, Solasta, MPM Capital,
+  iTeos, Frontier Medicines and Paraxel and is a Scientific Founder and serves
+  on the Scientific Advisory Board (SAB) for KSQ Therapeutics. F.V. receives
+  funding from Novo Ventures. All other authors declare no competing interests.
+  All authors were partially funded by the Cancer Dependency Map Consortium,
+  but no consortium member was involved in or influenced this study.%
+    }
+    \verb{doi}
+    \verb 10.1101/2020.02.21.959627
+    \endverb
+    \verb{eprint}
+    \verb https://www.biorxiv.org/content/early/2020/09/10/2020.02.21.959627.fu
+    \verb ll.pdf
+    \endverb
+    \field{title}{Gene expression has more power for predicting in vitro cancer
+  cell vulnerabilities than genomics}
+    \verb{url}
+    \verb https://www.biorxiv.org/content/early/2020/09/10/2020.02.21.959627
+    \endverb
+    \field{journaltitle}{bioRxiv}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Iorio2016-mq}{article}{}
+    \name{author}{39}{}{%
+      {{hash=IF}{%
+         family={Iorio},
+         familyi={I\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KTA}{%
+         family={Knijnenburg},
+         familyi={K\bibinitperiod},
+         given={Theo\bibnamedelima A},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=VDJ}{%
+         family={Vis},
+         familyi={V\bibinitperiod},
+         given={Daniel\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BGR}{%
+         family={Bignell},
+         familyi={B\bibinitperiod},
+         given={Graham\bibnamedelima R},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MMP}{%
+         family={Menden},
+         familyi={M\bibinitperiod},
+         given={Michael\bibnamedelima P},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schubert},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Aben},
+         familyi={A\bibinitperiod},
+         given={Nanne},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gon{\c c}alves},
+         familyi={G\bibinitperiod},
+         given={Emanuel},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Barthorpe},
+         familyi={B\bibinitperiod},
+         given={Syd},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lightfoot},
+         familyi={L\bibinitperiod},
+         given={Howard},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Cokelaer},
+         familyi={C\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Greninger},
+         familyi={G\bibinitperiod},
+         given={Patricia},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=vDE}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Dyk},
+         familyi={D\bibinitperiod},
+         given={Ewald},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={Han},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=dSH}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Heshani},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HH}{%
+         family={Heyn},
+         familyi={H\bibinitperiod},
+         given={Holger},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DX}{%
+         family={Deng},
+         familyi={D\bibinitperiod},
+         given={Xianming},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ERK}{%
+         family={Egan},
+         familyi={E\bibinitperiod},
+         given={Regina\bibnamedelima K},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Qingsong},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Mironenko},
+         familyi={M\bibinitperiod},
+         given={Tatiana},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MX}{%
+         family={Mitropoulos},
+         familyi={M\bibinitperiod},
+         given={Xeni},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RL}{%
+         family={Richardson},
+         familyi={R\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jinhua},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Tinghu},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Moran},
+         familyi={M\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sayols},
+         familyi={S\bibinitperiod},
+         given={Sergi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Soleimani},
+         familyi={S\bibinitperiod},
+         given={Maryam},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TD}{%
+         family={Tamborero},
+         familyi={T\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LBN}{%
+         family={Lopez-Bigas},
+         familyi={L\bibinithyphendelim B\bibinitperiod},
+         given={Nuria},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RMP}{%
+         family={Ross-Macdonald},
+         familyi={R\bibinithyphendelim M\bibinitperiod},
+         given={Petra},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Esteller},
+         familyi={E\bibinitperiod},
+         given={Manel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GNS}{%
+         family={Gray},
+         familyi={G\bibinitperiod},
+         given={Nathanael\bibnamedelima S},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HDA}{%
+         family={Haber},
+         familyi={H\bibinitperiod},
+         given={Daniel\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SMR}{%
+         family={Stratton},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BCH}{%
+         family={Benes},
+         familyi={B\bibinitperiod},
+         given={Cyril\bibnamedelima H},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WLFA}{%
+         family={Wessels},
+         familyi={W\bibinitperiod},
+         given={Lodewyk F\bibnamedelima A},
+         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+      {{hash=SRJ}{%
+         family={Saez-Rodriguez},
+         familyi={S\bibinithyphendelim R\bibinitperiod},
+         given={Julio},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MU}{%
+         family={McDermott},
+         familyi={M\bibinitperiod},
+         given={Ultan},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=GMJ}{%
+         family={Garnett},
+         familyi={G\bibinitperiod},
+         given={Mathew\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier BV}%
+    }
+    \strng{namehash}{IF+1}
+  \strng{fullhash}{IFKTAVDJBGRMMPSMANGEBSLHCTGPDEvCHSHdHHDXERKLQMTMXRLWJZTMSSSSMTDLBNRMPEMGNSHDASMRBCHWLFASRJMUGMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Systematic studies of cancer genomes have provided unprecedented insights
+  into the molecular nature of cancer. Using this information to guide the
+  development and application of therapies in the clinic is challenging. Here,
+  we report how cancer-driven alterations identified in 11,289 tumors from 29
+  tissues (integrating somatic mutations, copy number alterations, DNA
+  methylation, and gene expression) can be mapped onto 1,001 molecularly
+  annotated human cancer cell lines and correlated with sensitivity to 265
+  drugs. We find that cell lines faithfully recapitulate oncogenic alterations
+  identified in tumors, find that many of these associate with drug
+  sensitivity/resistance, and highlight the importance of tissue lineage in
+  mediating drug response. Logic-based modeling uncovers combinations of
+  alterations that sensitize to drugs, while machine learning demonstrates the
+  relative importance of different data types in predicting drug response. Our
+  analysis and datasets are rich resources to link genotypes with cellular
+  phenotypes and to identify therapeutic options for selected cancer
+  sub-populations.%
+    }
+    \field{number}{3}
+    \field{pages}{740\bibrangedash 754}
+    \field{title}{A landscape of pharmacogenomic interactions in cancer}
+    \field{volume}{166}
+    \field{journaltitle}{Cell}
+    \field{month}{07}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Maksimovic2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MJ}{%
+         family={Maksimovic},
+         familyi={M\bibinitperiod},
+         given={Jovana},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OA}{%
+         family={Oshlack},
+         familyi={O\bibinitperiod},
+         given={Alicia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PB}{%
+         family={Phipson},
+         familyi={P\bibinitperiod},
+         given={Belinda},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJOAPB1}
+    \strng{fullhash}{MJOAPB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    DNA methylation is one of the most commonly studied epigenetic marks, due
+  to its role in disease and development. Illumina methylation arrays have been
+  extensively used to measure methylation across the human genome. Methylation
+  array analysis has primarily focused on preprocessing, normalization, and
+  identification of differentially methylated CpGs and regions. GOmeth and
+  GOregion are new methods for performing unbiased gene set testing following
+  differential methylation analysis. Benchmarking analyses demonstrate GOmeth
+  outperforms other approaches, and GOregion is the first method for gene set
+  testing of differentially methylated regions. Both methods are publicly
+  available in the missMethyl Bioconductor R package.%
+    }
+    \verb{doi}
+    \verb 10.1186/s13059-021-02388-x
+    \endverb
+    \field{issn}{1474-760X}
+    \field{number}{1}
+    \field{pages}{173}
+    \field{title}{Gene set enrichment analysis for genome-wide DNA methylation
+  data}
+    \verb{url}
+    \verb https://doi.org/10.1186/s13059-021-02388-x
+    \endverb
+    \field{volume}{22}
+    \field{journaltitle}{Genome Biology}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Shen2020-gq}{article}{}
+    \name{author}{14}{}{%
+      {{hash=SZ}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Zhiqing},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Youqin},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Liya},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={Meizhong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Xiaoping},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Xiangyan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=STJ}{%
+         family={Sferra},
+         familyi={S\bibinitperiod},
+         given={Thomas\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Meizhu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Xiaoying},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Jianfeng},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Aling},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={Jun},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Frontiers Media SA}%
+    }
+    \keyw{EBF1; PNO1; colorectal cancer; p53 pathway; survival; tumor growth}
+    \strng{namehash}{SZ+1}
+    \strng{fullhash}{SZCYLLLLPMCXWXSTJWMLXCYCJSAPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Early B cell factor 1 (EBF1) has been identified as an upstream
+  transcription factor of the potential oncogene PNO1 and is involved in the
+  growth of colorectal cancer (CRC) cells. However, its expression, biological
+  function, and underlying mechanism of action in most solid tumors remain
+  largely unknown. We postulated that EBF1 has a role in the pathophysiology of
+  CRC. Analysis of EBF1 mRNA expression in CRC tumor samples from several
+  public databases and directly from banked tissues revealed that EBF1 mRNA
+  expression is lower in CRC tissue compared to non-cancerous colorectal
+  tissue. Survival analysis of multiple datasets revealed that low EBF1
+  expression was correlated with shorter overall survival, relapse-free
+  survival, and event-free survival in CRC patients. Transduction of lentivirus
+  encoding full length EBF1 followed by in vitro and in vivo assays
+  demonstrated that EBF1 over-expression in CRC cell lines suppresses cell
+  growth by inhibiting cell viability, cell survival, and induces cell cycle
+  arrest and apoptosis. Mechanistic investigation indicated that EBF1
+  over-expression down-regulates PNO1 mRNA and protein expression, as well as
+  transcriptional activity while up-regulating the expression of p53 and p21
+  proteins. These findings suggest that EBF1 is a novel potential tumor
+  suppressor in CRC with prognostic value for the identification of patients at
+  high-risk of relapse.%
+    }
+    \field{pages}{1035}
+    \field{title}{Transcription factor {EBF1} over-expression suppresses tumor
+  growth in vivo and in vitro via modulation of the {PNO1/p53} pathway in
+  colorectal cancer}
+    \field{volume}{10}
+    \field{journaltitle}{Front. Oncol.}
+    \field{month}{06}
+    \field{year}{2020}
+  \endentry
+
+  \entry{KOFERLE2022110636}{article}{}
+    \name{author}{20}{}{%
+      {{hash=KA}{%
+         family={Köferle},
+         familyi={K\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schlattl},
+         familyi={S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hörmann},
+         familyi={H\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TV}{%
+         family={Thatikonda},
+         familyi={T\bibinitperiod},
+         given={Venu},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Popa},
+         familyi={P\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SF}{%
+         family={Spreitzer},
+         familyi={S\bibinitperiod},
+         given={Fiona},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RMC}{%
+         family={Ravichandran},
+         familyi={R\bibinitperiod},
+         given={Madhwesh\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Supper},
+         familyi={S\bibinitperiod},
+         given={Verena},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Oberndorfer},
+         familyi={O\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Puchner},
+         familyi={P\bibinitperiod},
+         given={Teresa},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wieshofer},
+         familyi={W\bibinitperiod},
+         given={Corinna},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Corcokovic},
+         familyi={C\bibinitperiod},
+         given={Maja},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Reiser},
+         familyi={R\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wöhrle},
+         familyi={W\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Popow},
+         familyi={P\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pearson},
+         familyi={P\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Martinez},
+         familyi={M\bibinitperiod},
+         given={Javier},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Weitzer},
+         familyi={W\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Mair},
+         familyi={M\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=NRA}{%
+         family={Neumüller},
+         familyi={N\bibinitperiod},
+         given={Ralph\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{paralog, genetic interaction, cancer, loss of chromosome Y, sex
+  chromosomes, RPP25, RPP25L, DDX3X, DDX3Y, synthetic lethality}
+    \strng{namehash}{KA+1}
+    \strng{fullhash}{KASAHATVPASFRMCSVOSPTWCCMRCWSPJPMMJWSMBNRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Summary Genetic networks are characterized by extensive buffering. During
+  tumor evolution, disruption of functional redundancies can create de novo
+  vulnerabilities that are specific to cancer cells. Here, we systematically
+  search for cancer-relevant paralog interactions using CRISPR screens and
+  publicly available loss-of-function datasets. Our analysis reveals >2,000
+  candidate dependencies, several of which we validate experimentally,
+  including CSTF2-CSTF2T, DNAJC15-DNAJC19, FAM50A-FAM50B, and RPP25-RPP25L. We
+  provide evidence that RPP25L can physically and functionally compensate for
+  the absence of RPP25 as a member of the RNase P/MRP complexes in tRNA
+  processing. Our analysis also reveals unexpected redundancies between sex
+  chromosome genes. We show that chrX- and chrY-encoded paralogs, such as
+  ZFX-ZFY, DDX3X-DDX3Y, and EIF1AX-EIF1AY, are functionally linked. Tumor cell
+  lines from male patients with loss of chromosome Y become dependent on the
+  chrX-encoded gene. We propose targeting of chrX-encoded paralogs as a general
+  therapeutic strategy for human tumors that have lost the Y chromosome.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.celrep.2022.110636
+    \endverb
+    \field{issn}{2211-1247}
+    \field{number}{2}
+    \field{pages}{110636}
+    \field{title}{Interrogation of cancer gene dependencies reveals paralog
+  interactions of autosome and sex chromosome-encoded genes}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S2211124722003886
+    \endverb
+    \field{volume}{39}
+    \field{journaltitle}{Cell Reports}
+    \field{year}{2022}
+  \endentry
+
+  \entry{10.1093/nar/gky691}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZW}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Wanding},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=TJTJ}{%
+         family={Triche},
+         familyi={T\bibinitperiod},
+         suffix={Timothy\bibnamedelima J},
+         suffixi={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Jr},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LPW}{%
+         family={Laird},
+         familyi={L\bibinitperiod},
+         given={Peter\bibnamedelima W},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZW+1}
+    \strng{fullhash}{ZWTTJJLPWSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    {We report a new class of artifacts in DNA methylation measurements from
+  Illumina HumanMethylation450 and MethylationEPIC arrays. These artifacts
+  reflect failed hybridization to target DNA, often due to germline or somatic
+  deletions and manifest as incorrectly reported intermediate methylation. The
+  artifacts often survive existing preprocessing pipelines, masquerade as
+  epigenetic alterations and can confound discoveries in epigenome-wide
+  association studies and studies of methylation-quantitative trait loci. We
+  implement a solution, P-value with out-of-band (OOB) array hybridization
+  (pOOBAH), in the R package SeSAMe. Our method effectively masks deleted and
+  hyperpolymorphic regions, reducing or eliminating spurious reports of
+  epigenetic silencing at oft-deleted tumor suppressor genes such as CDKN2A and
+  RB1 in cases with somatic deletions. Furthermore, our method substantially
+  decreases technical variation whilst retaining biological variation, both
+  within and across HM450 and EPIC platform measurements. SeSAMe provides a
+  light-weight, modular DNA methylation data analysis suite, with a performant
+  implementation suitable for efficient analysis of thousands of samples.}%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gky691
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/nar/article-pdf/46/20/e123/26578142/gky691.p
+    \verb df
+    \endverb
+    \field{issn}{0305-1048}
+    \field{number}{20}
+    \field{pages}{e123\bibrangedash e123}
+    \field{title}{{SeSAMe: reducing artifactual detection of DNA methylation by
+  Infinium BeadChips in genomic deletions}}
+    \verb{url}
+    \verb https://doi.org/10.1093/nar/gky691
+    \endverb
+    \field{volume}{46}
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{month}{07}
+    \field{year}{2018}
+  \endentry
+
+  \entry{DepMap2022}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DB}{%
+         family={DepMap},
+         familyi={D\bibinitperiod},
+         given={Broad},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DB1}
+    \strng{fullhash}{DB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.6084/m9.figshare.19700056.v2
+    \endverb
+    \field{title}{{DepMap 22Q2 Public}}
+    \verb{url}
+    \verb https://figshare.com/articles/dataset/DepMap_22Q2_Public/19700056
+    \endverb
+    \field{month}{05}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Dempster2021}{article}{}
+    \name{author}{8}{}{%
+      {{hash=DJM}{%
+         family={Dempster},
+         familyi={D\bibinitperiod},
+         given={Joshua\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Boyle},
+         familyi={B\bibinitperiod},
+         given={Isabella},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Vazquez},
+         familyi={V\bibinitperiod},
+         given={Francisca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RDE}{%
+         family={Root},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BJS}{%
+         family={Boehm},
+         familyi={B\bibinitperiod},
+         given={Jesse\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HWC}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tsherniak},
+         familyi={T\bibinitperiod},
+         given={Aviad},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MJM}{%
+         family={McFarland},
+         familyi={M\bibinitperiod},
+         given={James\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJM+1}
+    \strng{fullhash}{DJMBIVFRDEBJSHWCTAMJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    CRISPR loss of function screens are powerful tools to interrogate biology
+  but exhibit a number of biases and artifacts that can confound the results.
+  Here, we introduce Chronos, an algorithm for inferring gene knockout fitness
+  effects based on an explicit model of cell proliferation dynamics after
+  CRISPR gene knockout. We test Chronos on two pan-cancer CRISPR datasets and
+  one longitudinal CRISPR screen. Chronos generally outperforms competitors in
+  separation of controls and strength of biomarker associations, particularly
+  when longitudinal data is available. Additionally, Chronos exhibits the
+  lowest copy number and screen quality bias of evaluated methods. Chronos is
+  available at https://github.com/broadinstitute/chronos.%
+    }
+    \verb{doi}
+    \verb 10.1186/s13059-021-02540-7
+    \endverb
+    \field{issn}{1474-760X}
+    \field{number}{1}
+    \field{pages}{343}
+    \field{title}{Chronos: a cell population dynamics model of CRISPR
+  experiments that improves inference of gene fitness effects}
+    \verb{url}
+    \verb https://doi.org/10.1186/s13059-021-02540-7
+    \endverb
+    \field{volume}{22}
+    \field{journaltitle}{Genome Biology}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Krill-Burger2022.03.02.482624}{article}{}
+    \name{author}{11}{}{%
+      {{hash=KBJM}{%
+         family={Krill-Burger},
+         familyi={K\bibinithyphendelim B\bibinitperiod},
+         given={J.\bibnamedelima Michael},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DJM}{%
+         family={Dempster},
+         familyi={D\bibinitperiod},
+         given={Joshua\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BAA}{%
+         family={Borah},
+         familyi={B\bibinitperiod},
+         given={Ashir\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PBR}{%
+         family={Paolella},
+         familyi={P\bibinitperiod},
+         given={Brenton\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=RDE}{%
+         family={Root},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima E.},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GTR}{%
+         family={Golub},
+         familyi={G\bibinitperiod},
+         given={Todd\bibnamedelima R.},
+         giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BJS}{%
+         family={Boehm},
+         familyi={B\bibinitperiod},
+         given={Jesse\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HWC}{%
+         family={Hahn},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MJM}{%
+         family={McFarland},
+         familyi={M\bibinitperiod},
+         given={James\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Vazquez},
+         familyi={V\bibinitperiod},
+         given={Francisca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tsherniak},
+         familyi={T\bibinitperiod},
+         given={Aviad},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cold Spring Harbor Laboratory}%
+    }
+    \strng{namehash}{KBJM+1}
+    \strng{fullhash}{KBJMDJMBAAPBRRDEGTRBJSHWCMJMVFTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Hundreds of genome-wide loss-of-function screens have been performed, as
+  part of efforts such as The Cancer Dependency Map, to create a catalog of
+  genetic dependencies in a diverse set of cancer contexts. In recent years,
+  large-scale screening efforts have shifted perturbation technology from RNAi
+  to CRISPR-Cas9, due to the superior efficacy and specificity of
+  CRISPR-Cas9-mediated approaches. However, questions remain about the extent
+  to which partial suppression of gene targets could result in selective
+  dependency across cell lines, potentially revealing a larger set of
+  targetable cancer vulnerabilities than can be identified using CRISPR
+  knockout alone. Here, we use CRISPR-Cas9 and RNAi screening data for more
+  than 400 shared cell lines to represent knockout and partial suppression
+  genetic perturbation modalities and evaluate the utility of each for
+  therapeutic target discovery and the inference of gene function. We find that
+  CRISPR screens identify more dependencies, and yield more accurate predictive
+  models and co-dependency relationships overall. However, RNAi outperforms
+  CRISPR in identifying associations (omics, drug, co-dependencies) with genes
+  that are common dependencies for most cell lines (pan-dependencies). As
+  pan-dependencies occur frequently in the CRISPR dataset (~2,000 genes), using
+  results from both RNAi and CRISPR analyses facilitates the discovery of
+  predictive models and associated co-dependencies for a wider range of gene
+  targets than could be detected using either dataset alone. These findings can
+  aid in the interpretation of contrasting results obtained from CRISPR and
+  RNAi screens and reinforce the importance of partial gene suppression methods
+  in building a cancer dependency map.Competing Interest StatementB.R.P. and
+  F.V. receive research support from Novo Ventures. D.E.R. receives research
+  funding from members of the Functional Genomics Consortium (Abbvie, BMS,
+  Jannsen, Merck, Vir), and is a director of Addgene. T.R.G. receives research
+  funding from Bayer HealthCare, Calico Life Sciences, and Novo Ventures, is a
+  founder and equity holder of Sherlock Biosciences and FORMA Therapeutics,
+  serves a consultant for GlaxoSmithKline, and was formerly a consultant and
+  equity holder in Foundation Medicine acquired by Roche. W.C.H. is a
+  consultant for ThermoFisher, Solasta Ventures, MPM Capital, KSQ Therapeutics,
+  iTeos, Tyra Biosciences, Frontier Medicine, Jubilant Therapeutics, RAPTTA
+  Therapeutics, Function Oncology, and Calyx. A.T. is a consultant for Cedilla
+  Therapeutics, Foghorn Therapeutics, The Center for Protein Degradation
+  (Deerfield), Tango Therapeutics, and is an SAB member and holds equity in
+  Turbine Simulated Cell Technologies. This work was partially funded by the
+  Cancer Dependency Map Consortium, but no consortium member was involved in or
+  influenced this study.%
+    }
+    \verb{doi}
+    \verb 10.1101/2022.03.02.482624
+    \endverb
+    \verb{eprint}
+    \verb https://www.biorxiv.org/content/early/2022/03/03/2022.03.02.482624.fu
+    \verb ll.pdf
+    \endverb
+    \field{title}{Partial gene suppression improves identification of cancer
+  vulnerabilities when CRISPR-Cas9 knockout is pan-lethal}
+    \verb{url}
+    \verb https://www.biorxiv.org/content/early/2022/03/03/2022.03.02.482624
+    \endverb
+    \field{journaltitle}{bioRxiv}
+    \field{year}{2022}
+  \endentry
+\enddatalist
+\endinput

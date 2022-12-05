@@ -13,6 +13,7 @@ library(here)
 library(RColorBrewer)
 library(cowplot)
 library(scales)
+library(ggpubr)
 ```
 
 ```{r}
@@ -34,43 +35,24 @@ sum(sorted_permutated_importances>0.01)/length(sorted_permutated_importances)
 permutated_models <- summary %>% filter(model=='Methylation_permutated') %>%
   pull(pearson)
 
-pearson_lim <- unname(quantile(permutated_models, 0.99))
+pearson_lim <- unname(quantile(permutated_models, 0.95))
 
 median_pearson <- summary %>%
                     group_by(model) %>%
                     summarize(median_pearson=median(pearson))
 
-ggplot(summary, aes(x=pearson, fill=model)) +
+g <- ggplot(summary, aes(x=pearson, fill=model)) +
   geom_density(alpha=0.5) +
   geom_vline(xintercept=median_pearson$median_pearson, color=hue_pal()(2)) +
   theme_bw() +
   theme(legend.position='none') +
   labs(x='Pearson correlation', y='Count') +
-  scale_fill_manual(values=hue_pal()(2))
-```
+  scale_fill_manual(values=hue_pal()(2))+
+  theme(legend.position='right')
 
-```{r}
-  
-```
-
-```{r}  
-
-
-methylation_models <- summary %>% filter(model=='Methylation') %>%
-  pull(pearson)
-
-g <- ggplot(summary, aes(x=pearson))+
-  geom_density(aes(fill=model), alpha=0.5)+
-  geom_vline(xintercept=median_pearson$Methylation, color='red', linetype='dotted')+
-  geom_vline(xintercept=pearson_lim, color='red', linetype='dotted')+
-  theme_pubr()
-
-ggsave(here('bmi_206_presonal_project/figures/pearson_distributions.png'), g, width=6, height=8)
+ggsave(here('bmi_206_presonal_project/figures/pearson_distributions.png'), g, width=8, height=6)
 
 saveRDS(g, here('bmi_206_presonal_project/figures/rds/pearson_distributions.rds'))
-```
-
-```{r}
 ```
 
 ```{r}
@@ -148,6 +130,7 @@ g <- ggplot(feature_counts_merged, aes(x=n,fill=model))+
     xlim(min(feature_counts_merged$n)-1, 1000)+
     xlab('Number of non-zero features per model')+
     ylab('Number of models')+
+    theme(legend.position='right')+
     ggpubr::theme_pubr()
 
 ggsave(here::here('bmi_206_presonal_project/figures/feature_counts_merged.png'), g, width=8, height=6)

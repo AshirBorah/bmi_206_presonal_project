@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: example.bib
+Biblatex version: 3.18
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 11 entries,
+            6399 wiz_defined-function locations,
+            1302 strings with 25878 characters,
+and the built_in function-call counts, 325221 in all, are:
+= -- 32257
+> -- 1975
+< -- 293
++ -- 11339
+- -- 932
+* -- 24777
+:= -- 44219
+add.period$ -- 0
+call.type$ -- 11
+change.case$ -- 180
+chr.to.int$ -- 71
+cite$ -- 20
+duplicate$ -- 31424
+empty$ -- 26019
+format.name$ -- 1833
+if$ -- 61642
+int.to.chr$ -- 0
+int.to.str$ -- 28
+missing$ -- 0
+newline$ -- 1105
+num.names$ -- 497
+pop$ -- 5853
+preamble$ -- 1
+purify$ -- 460
+quote$ -- 0
+skip$ -- 2400
+stack$ -- 0
+substring$ -- 67632
+swap$ -- 3310
+text.length$ -- 342
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 362
+warning$ -- 0
+while$ -- 5143
+width$ -- 0
+write$ -- 1095

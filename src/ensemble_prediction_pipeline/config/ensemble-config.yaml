@@ -1,0 +1,11 @@
+---
+Methylation:
+  Features:
+  - Methylation
+  - Lin
+  Required:
+  - Methylation
+  - Lin
+  Relation: All
+  Exempt:
+  Feature_importance_topn: 1000

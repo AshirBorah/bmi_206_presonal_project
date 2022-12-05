@@ -1,0 +1,271 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(useful)
+#BiocManager::install('missMethyl')
+library(missMethyl)
+library(here)
+library(RColorBrewer)
+library(cowplot)
+library(scales)
+```
+
+```{r}
+summary <- read_csv('bmi_206_presonal_project/DepMap-Methylation_prediction_summary.csv') %>%
+  separate(gene, into=c('gene', NA))
+
+permutated_models <- summary %>% filter(model=='Methylation_permutated') %>%
+  select(ends_with('importance')) %>%
+  as.matrix()
+
+sorted_permutated_importances <- sort(c(permutated_models))
+
+feature_imp_limit <- quantile(sorted_permutated_importances, 0.95)
+
+sum(sorted_permutated_importances>0.01)/length(sorted_permutated_importances)
+```
+
+```{r}
+permutated_models <- summary %>% filter(model=='Methylation_permutated') %>%
+  pull(pearson)
+
+pearson_lim <- unname(quantile(permutated_models, 0.99))
+
+median_pearson <- summary %>%
+                    group_by(model) %>%
+                    summarize(median_pearson=median(pearson))
+
+ggplot(summary, aes(x=pearson, fill=model)) +
+  geom_density(alpha=0.5) +
+  geom_vline(xintercept=median_pearson$median_pearson, color=hue_pal()(2)) +
+  theme_bw() +
+  theme(legend.position='none') +
+  labs(x='Pearson correlation', y='Count') +
+  scale_fill_manual(values=hue_pal()(2))
+```
+
+```{r}
+  
+```
+
+```{r}  
+
+
+methylation_models <- summary %>% filter(model=='Methylation') %>%
+  pull(pearson)
+
+g <- ggplot(summary, aes(x=pearson))+
+  geom_density(aes(fill=model), alpha=0.5)+
+  geom_vline(xintercept=median_pearson$Methylation, color='red', linetype='dotted')+
+  geom_vline(xintercept=pearson_lim, color='red', linetype='dotted')+
+  theme_pubr()
+
+ggsave(here('bmi_206_presonal_project/figures/pearson_distributions.png'), g, width=6, height=8)
+
+saveRDS(g, here('bmi_206_presonal_project/figures/rds/pearson_distributions.rds'))
+```
+
+```{r}
+```
+
+```{r}
+all_cpg <- read_csv(here::here('bmi_206_presonal_project/data/raw/cpg_probes.csv'), col_names=F) %>% pull(X2)
+```
+
+```{r}
+##Check if the file feature.rds exists
+if(!file.exists(here::here('bmi_206_presonal_project/data/processed/feature_df.rds'))){
+    feature_df <- list.files('bmi_206_presonal_project/output/Methylation', "*_features_long.csv", full.names=T)%>%
+    lapply(read_csv) %>%
+        bind_rows() %>%
+        separate(target, into=c('gene', NA), sep=' ') %>%
+        separate(feature, into=c('feature', NA), sep='_')
+
+    saveRDS(feature_df, 'bmi_206_presonal_project/data/processed/feature_df.rds')
+} else{
+    feature_df <- readRDS('bmi_206_presonal_project/data/processed/feature_df.rds')
+}
+
+if(!file.exists(here::here('bmi_206_presonal_project/data/processed/feature_permutated_df.rds'))){
+    feature_permutated_df <- list.files('bmi_206_presonal_project/output/Methylation_permutated', "*_features_long.csv", full.names=T)%>%
+    lapply(read_csv) %>%
+        bind_rows() %>%
+        separate(target, into=c('gene', NA), sep=' ') %>%
+        separate(feature, into=c('feature', NA), sep='_')
+
+    saveRDS(feature_df, 'bmi_206_presonal_project/data/processed/feature_permutated_df.rds')
+} else{
+    feature_permutated_df <- readRDS('bmi_206_presonal_project/data/processed/feature_permutated_df.rds')
+}
+```
+
+```{r}
+feature_imp_limit <- quantile(feature_permutated_df$importance, 0.95)
+```
+
+```{r}
+get_cpg_given_gene <- function(gene_name, df = feature_df, filter='all') {
+  if (filter=='all'){
+  feature_df %>% 
+    filter(gene==gene_name, importance>0) %>%
+    pull(feature)
+  } else if (filter=='limit') {
+    feature_df %>% 
+    filter(gene==gene_name, importance>feature_imp_limit) %>%
+    pull(feature)
+  }
+}
+```
+
+```{r}
+feature_counts_lim <- feature_df %>% 
+    inner_join(summary %>% filter(model=='Methylation', pearson>pearson_lim), by=c('gene'='gene')) %>%
+    filter(str_detect(feature, '^cg'), importance>0, pearson>pearson_lim) %>%
+    group_by(gene) %>%
+    summarize(n=n()) %>%
+    mutate(model='Methylation')
+
+feature_counts_lim %>% arrange(desc(n)) %>% head(10)
+
+feature_counts_permutated_lim <- feature_permutated_df %>% 
+    inner_join(summary %>% filter(model=='Methylation_permutated', pearson>pearson_lim), by=c('gene'='gene')) %>%
+    filter(str_detect(feature, '^cg'), importance>0, pearson>pearson_lim) %>%
+    group_by(gene) %>%
+    summarize(n=n()) %>%
+    mutate(model='Methylation_permutated')
+
+
+feature_counts_merged <- rbind(feature_counts_lim, feature_counts_permutated_lim)
+
+
+g <- ggplot(feature_counts_merged, aes(x=n,fill=model))+
+    geom_bar(alpha=0.5)+
+    xlim(min(feature_counts_merged$n)-1, 1000)+
+    xlab('Number of non-zero features per model')+
+    ylab('Number of models')+
+    ggpubr::theme_pubr()
+
+ggsave(here::here('bmi_206_presonal_project/figures/feature_counts_merged.png'), g, width=8, height=6)
+
+saveRDS(g, 'bmi_206_presonal_project/figures/rds/feature_counts.rds')
+```
+
+```{r}
+data.frame(length_list) %>% t() %>% as.data.frame()
+```
+
+```{r}
+ggplot(feature_counts, aes(x=n))+
+    geom_bar()+
+    xlim(600,1000)
+```
+
+```{r}
+sig_df <- gometh(sig.cpg=get_cpg_given_gene('FAM50A', filter='all'), collection='GO') %>%
+  mutate(gene_ratio = DE/N)
+sig_df_kegg <- gometh(sig.cpg=get_cpg_given_gene('FAM50A', filter='all'), collection='KEGG') %>%
+  mutate(gene_ratio = DE/N)
+
+sig_df %>% arrange(P.DE) %>% head()
+sig_df_kegg %>% arrange(P.DE) %>% head()
+```
+
+```{r}
+plot_enrichment <- function(gene_name){
+
+    sig_df <- gometh(sig.cpg=get_cpg_given_gene(gene_name, filter='all'), collection='GO') %>%
+    mutate(gene_ratio = DE/N)
+  sig_df_kegg <- gometh(sig.cpg=get_cpg_given_gene(gene_name, filter='all'), collection='KEGG') %>%
+    mutate(gene_ratio = DE/N)
+
+  # plot_data <- sig_df %>% 
+  #   arrange(P.DE) %>% 
+  #   top_n(10, -P.DE) %>%
+  #   mutate(log10=-log10(P.DE)) %>%
+  #   rename(Description=TERM)
+
+  # plot_data$Description <- factor(plot_data$Description, levels=plot_data$Description)
+
+  # g1 <- ggplot(plot_data, aes(y=reorder(Description, plot_data$Description), x=-log10(P.DE))) +
+  #   geom_point(size=10) +
+  #   theme_bw() +
+  #   labs(x='-log10(P.DE)', y='GO Term') +
+  #   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  #   scale_y_discrete(limits=rev)
+
+  plot_data <- sig_df_kegg %>% 
+    arrange(P.DE) %>% 
+    top_n(10, -P.DE) %>%
+    mutate(log10=-log10(P.DE))
+
+  plot_data$Description <- factor(plot_data$Description, levels=plot_data$Description)
+
+  g2 <- ggplot(plot_data, aes(y=reorder(Description, plot_data$Description), x=-log10(P.DE))) +
+    geom_point(size=5) +
+    theme_bw() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+    labs(y='KEGG Pathway', x='-log10(P.DE)') +
+    scale_y_discrete(limits=rev)
+
+  # g <- plot_grid(
+  #     g1, g2,
+  #     labels = "AUTO", ncol = 1
+  #   )
+  # print(g)
+
+  ggsave(here::here('bmi_206_presonal_project/figures/', paste0(gene_name, '_enrichment.png')), g2, width=8, height=6)
+  saveRDS(g2, here::here('bmi_206_presonal_project/figures/rds/', paste0(gene_name, '_enrichment.rds')))
+}
+```
+
+```{r}
+plot_enrichment('FAM50A')
+```
+
+```{r}
+summary %>% 
+  top_n(20, pearson) %>%
+  separate(gene, into=c('gene', NA)) %>%
+  pull(gene) -> top_20_genes
+
+
+for (gene in top_20_genes){
+  plot_enrichment(gene)
+}
+```
+
+```{r}
+g1 <- readRDS(here::here('bmi_206_presonal_project/figures/rds/pearson_distributions.rds'))+
+  ggtitle('Pearson Correlation Distributions')+
+  theme(legend.position="right")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+g2 <- readRDS(here::here('bmi_206_presonal_project/figures/rds/feature_counts.rds'))+
+  ggtitle('Feature Importance Distribution')+
+  theme(legend.position="right")+
+  theme(plot.title = element_text(hjust = 0.5))
+
+enrichment1 <- readRDS(here::here('bmi_206_presonal_project/figures/rds/FAM50A_enrichment.rds'))+
+  ggtitle('FAM50A Enrichment')+
+  theme(plot.title = element_text(hjust = 0.5))
+
+enrichment2 <- readRDS(here::here('bmi_206_presonal_project/figures/rds/EBF1_enrichment.rds'))+
+  ggtitle('EBF1 Enrichment')+
+  theme(plot.title = element_text(hjust = 0.5))
+
+gp <- plot_grid(
+  g1, g2, enrichment1, enrichment2,
+  labels = "AUTO", ncol = 2
+)
+
+ggsave(here::here('bmi_206_presonal_project/figures/summary.png'), gp, width=16, height=8)
+```
+
+```{r}
+
+```

@@ -1,0 +1,11 @@
+[
+	{
+		"Name": "Methylation",
+		"Confounders": "True",
+		"Features": ["Methylation", "Lin"],
+		"Required": ["Confounders", "Methylation", "Lin"],
+		"Relation": "All",
+		"Exempt": null,
+		"Jobs": "10"
+	}
+]

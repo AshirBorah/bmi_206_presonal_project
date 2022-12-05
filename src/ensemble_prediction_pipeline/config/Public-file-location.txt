@@ -1,0 +1,16 @@
+dataset	filename
+RNAseq	data/raw/Expression_22Q2_Public.csv
+CN	data/raw/Copy_Number_22Q2_Public.csv
+MutDam	data/raw/Damaging_Mutations.csv
+MutMis	data/raw/Other_Non-conserving_Mutations.csv
+MutHot	data/raw/Hotspot_Mutations.csv
+Fusion	data/raw/Fusions_22Q2_Public.csv
+Lin	data/raw/onehot_lineage.csv
+CRISPR-GS	data/raw/CRISPR_gene_effect.csv
+CRISPR-Confounders	data/raw/CRISPR_confounders.csv
+Methylation	data/raw/Sanger_Methylation_DepMap_ID.ftr
+Methylation_permutated_1	data/raw/Sanger_Methylation_DepMap_ID_permuted_1.ftr
+Methylation_permutated_2	data/raw/Sanger_Methylation_DepMap_ID_permuted_2.ftr
+Methylation_permutated_3	data/raw/Sanger_Methylation_DepMap_ID_permuted_3.ftr
+Methylation_permutated_4	data/raw/Sanger_Methylation_DepMap_ID_permuted_4.ftr
+Methylation_permutated_5	data/raw/Sanger_Methylation_DepMap_ID_permuted_5.ftr

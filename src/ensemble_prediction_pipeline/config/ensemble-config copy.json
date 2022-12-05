@@ -1,0 +1,28 @@
+[{
+		"Name": "Unbiased",
+		"Confounders": "True",
+		"Features": ["RNAseq", "CN", "MutDam", "MutMis", "MutHot", "Fusion", "Lin"],
+		"Required": ["Confounders", "RNAseq", "Lin"],
+		"Relation": "All",
+		"Exempt": null,
+		"Jobs": "10"
+	},
+	{
+		"Name": "Methylation",
+		"Confounders": "True",
+		"Features": ["Methylation", "Lin"],
+		"Required": ["Confounders", "Methylation", "Lin"],
+		"Relation": "All",
+		"Exempt": null,
+		"Jobs": "10"
+	},
+	{
+		"Name": "Methylation_permutated",
+		"Confounders": "True",
+		"Features": ["Methylation","Lin"],
+		"Required": ["Confounders", "Methylation_permutated", "Lin"],
+		"Relation": "All",
+		"Exempt": null,
+		"Jobs": "10"
+	}
+]

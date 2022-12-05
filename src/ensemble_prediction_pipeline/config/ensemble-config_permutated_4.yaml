@@ -1,0 +1,11 @@
+---
+Methylation_permutated:
+  Features:
+  - Methylation_permutated_4
+  - Lin
+  Required:
+  - Methylation_permutated_4
+  - Lin
+  Relation:    All
+  Exempt:
+  Feature_importance_topn: 1000

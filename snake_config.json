@@ -1,0 +1,11 @@
+{
+	"RUN-ID" : "CRISPR_vs_RNAi_manuscript",
+	"PERTURBATION": ["CRISPR"],
+	"CRISPR": {"GS": "data/raw/CRISPR_gene_effect.csv", "Confounders": "data/raw/CRISPR_confounders.csv"},
+	"MODELS": ["Methylation", "Methylation_permutated"],
+	"MODEL_DEF": "src/ensemble_prediction_pipeline/config/ensemble-config.json",
+	"FEATURES": "src/ensemble_prediction_pipeline/config/Public-file-location.txt",
+	"FILTER": "none",
+	"COUNT": "10",
+	"TASK": "regress"
+}
